@@ -38,6 +38,19 @@ li a{
 main {
     padding-top: 11vh;
 }
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.left {
+    padding-top: 30px;
+    width: 50%;
+    background-color: ;
+}
+.right {
+    width: 50%;
+    padding-top: 30px;
+}
 .best {
     padding: 30px;
     display: flex;
@@ -57,6 +70,10 @@ main {
     margin: 5px;
     height: 250px;
     /* float: left; */
+}
+.slider {
+    text-align: center;
+    padding-top: 25px;
 }
 /* -----FOOTER------ */
 /* footer {
