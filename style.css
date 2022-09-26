@@ -60,14 +60,14 @@ main {
 .right {
     width: 50%;
     padding-top: 30px;
-    height: 300px;
-    background-image: ;
+    background-image: url(./img/gordon.jpg);
 }
-.right button{
+.left button{
     border: none;
     padding: 25px;
     width: 200px;
     background-color: white;
+    border-radius: 10px;
 }
 .best {
     padding: 30px;
@@ -88,6 +88,51 @@ main {
     margin: 5px;
     height: 250px;
     /* float: left; */
+}
+.b-left button {
+    background-color: #03C924;
+    color: white;
+    padding: 5px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.b-center button  {
+    background-color: #03C924;
+    color: white;
+    padding: 5px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.b-right button  {
+    background-color: #03C924;
+    color: white;
+    padding: 5px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.b-left button:hover {
+    box-shadow: black 0px 0px 2px;
+    background-color: #03C924;
+    color: white;
+    padding: 8px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.b-center button:hover  {
+    box-shadow: black 0px 0px 2px;
+    background-color: #03C924;
+    color: white;
+    padding: 8px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.b-right button:hover  {
+    box-shadow: black 0px 0px 2px;
+    background-color: #03C924;
+    color: white;
+    padding: 8px;
+    border: black 1px solid;
+    border-radius: 5px;
 }
 .slider {
     text-align: center;
@@ -110,6 +155,14 @@ footer h3 {
 display: flex;
 justify-content: center;
 }
-.input {
-padding: 2px;
+form input {
+    border-radius: 5px;
+    padding: 15px;
+    border: black 2px solid;
+}
+form button {
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    border: black 2px solid;
 }
