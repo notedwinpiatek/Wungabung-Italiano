@@ -41,22 +41,33 @@ main {
 .banner {
     display: flex;
     justify-content: center;
-}
-.left p {
-    width: 50%;
+    background-color: #7c2727;
 }
 .left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;  
+    max-width: 350px;
     color: white;
     text-align: center;
     padding-top: 30px;
     width: 50%;
     height: 300px;
-    background-color: #7c2727;
+}
+.left p {
+    padding: 5px;
 }
 .right {
     width: 50%;
     padding-top: 30px;
     height: 300px;
+    background-image: ;
+}
+.right button{
+    border: none;
+    padding: 25px;
+    width: 200px;
+    background-color: white;
 }
 .best {
     padding: 30px;
