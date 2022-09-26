@@ -42,14 +42,21 @@ main {
     display: flex;
     justify-content: center;
 }
+.left p {
+    width: 50%;
+}
 .left {
+    color: white;
+    text-align: center;
     padding-top: 30px;
     width: 50%;
-    background-color: ;
+    height: 300px;
+    background-color: #7c2727;
 }
 .right {
     width: 50%;
     padding-top: 30px;
+    height: 300px;
 }
 .best {
     padding: 30px;
@@ -74,12 +81,24 @@ main {
 .slider {
     text-align: center;
     padding-top: 25px;
+    width: 100%;
 }
 /* -----FOOTER------ */
-/* footer {
-    box-shadow: black 0px 0px 5px;
-} */
+footer {
+width: 100%;
+}
 .footertext {
     padding-top: 2px;
   text-align: center;
+}
+footer h3 {
+    display: flex;
+    justify-content: center;
+}
+.newsletter {
+display: flex;
+justify-content: center;
+}
+.input {
+padding: 2px;
 }
