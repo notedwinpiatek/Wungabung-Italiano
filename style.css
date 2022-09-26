@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+/*-----NAVBAR----*/
+header {
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+}
+.h-img img{
+    height: 8vh;
+    
+}
+.navbar ul{
+    list-style: none;
+    font-size: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+/* ----Main----- */
+main {
+    padding-top: 11vh;
+}
