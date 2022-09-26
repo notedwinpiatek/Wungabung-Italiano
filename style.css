@@ -44,8 +44,8 @@ main {
     background-color: #7c2727;
 }
 .left {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     margin-top: 38px;  
     max-width: 350px;
     color: white;
