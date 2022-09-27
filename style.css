@@ -61,6 +61,8 @@ main {
     width: 50%;
     padding-top: 30px;
     background-image: url(./img/gordon.jpg);
+    /* background-attachment: fixed;
+    background-position: 725px; */
 }
 .left button{
     border: none;
