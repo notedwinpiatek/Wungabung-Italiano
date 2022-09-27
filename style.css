@@ -69,6 +69,9 @@ main {
     background-color: white;
     border-radius: 10px;
 }
+.kucharze a {
+    text-decoration: none;
+}
 .best {
     padding: 30px;
     display: flex;
