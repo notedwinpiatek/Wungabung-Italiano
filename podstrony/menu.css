@@ -35,3 +35,38 @@ li a{
     text-decoration: none;
 }
 /* --------MENU-------- */
+.menu {
+    padding-top: 20vh;
+    background-image: url(../img/Menu.png);
+    background-repeat: no-repeat;
+    background-position: 150px;
+    width: 100%;
+    height: 2000px;
+}
+/* -----FOOTER------ */
+footer {
+    width: 100%;
+    }
+    .footertext {
+        padding-top: 2px;
+      text-align: center;
+    }
+    footer h3 {
+        display: flex;
+        justify-content: center;
+    }
+    .newsletter {
+    display: flex;
+    justify-content: center;
+    }
+    form input {
+        border-radius: 5px;
+        padding: 15px;
+        border: black 2px solid;
+    }
+    form button {
+        border-radius: 5px;
+        background-color: white;
+        padding: 15px;
+        border: black 2px solid;
+    }
