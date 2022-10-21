@@ -40,9 +40,12 @@ main {
     display: flex;
     justify-content: center;
 }
-.top {
-    
-    background-color: white;
+.top button{
+    padding: 10px;
+    background-color: #03C924;
+    color: white;
+    border: solid black 1px;
+    border-radius: 5px;
 }
 .right img {
     width: 50%;
